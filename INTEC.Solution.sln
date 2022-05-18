@@ -1,11 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 17
-VisualStudioVersion = 17.1.32421.90
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.32510.428
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "INTEC.ConsoleApp", "..\INTEC.ConsoleApp\INTEC.ConsoleApp.csproj", "{2C011812-C9E7-4054-897B-19206A27C783}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "INTEC.ConsoleApp", "INTEC.ConsoleApp\INTEC.ConsoleApp.csproj", "{2C011812-C9E7-4054-897B-19206A27C783}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "INTEC.WindowsFormsApp", "..\INTEC.WindowsFormsApp\INTEC.WindowsFormsApp.csproj", "{EE28BC37-EE79-4DEF-9FD2-A79CC671511A}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "INTEC.WindowsFormsApp", "INTEC.WindowsFormsApp\INTEC.WindowsFormsApp.csproj", "{EE28BC37-EE79-4DEF-9FD2-A79CC671511A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
