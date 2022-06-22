@@ -50,16 +50,9 @@ namespace ECOMMERCE.Controllers
         {
             if (ModelState.IsValid)
             {
-                try
-                {
-                    supplier.CreatedDate = DateTime.Now;
-                    db.Suppliers.Add(supplier);
-                    db.SaveChanges();
-                }
-                catch (Exception ex)
-                {
-                    var ms = ex;
-                }
+                supplier.CreatedDate = DateTime.Now;
+                db.Suppliers.Add(supplier);
+                db.SaveChanges();
                 return RedirectToAction("Index");
             }
 
